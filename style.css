@@ -6,7 +6,6 @@
 display: flex; 
 justify-content:space-around;
 align-items: center;
-
 width: 100vw;
 }
 .navbar-ul{
@@ -83,7 +82,25 @@ a:hover {
     justify-content: space-between;
     width: 24%; 
  }
-
+ .patients:hover{opacity: 0.9;}
+ .doctors {
+    background-color: #3d83df;
+    border-radius: 11px;
+    padding: 3%;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24%; 
+ }
+ .doctors:hover{opacity: 0.9;}
+ .clinics {
+    background-color: #1b2734;
+    border-radius: 11px;
+    padding: 3%;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24%; 
+ }
+ .clinics:hover{opacity: 0.9;}
  .cards h1{
     color: white;
  }
