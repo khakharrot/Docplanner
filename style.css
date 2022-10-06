@@ -1,0 +1,104 @@
+.main-pic {
+ width: 250px;
+ height: 100px;
+}
+.navbar {
+display: flex; 
+justify-content:space-around;
+align-items: center;
+
+width: 100vw;
+}
+.navbar-ul{
+    display: flex; 
+justify-content:space-around;
+width: 300px;
+}
+li {
+   list-style-type: none;
+}
+a {
+    text-decoration: none ;
+    color: grey ;
+}
+.green {
+    color: #00b39b;
+}
+a:hover {
+    color: #00b39b ;
+}
+.dropdown {
+    box-shadow: 0 5px 10px 0 #d3cfc9;
+    display: none;
+    position: absolute;
+    flex-direction:column;
+    padding: 25px;
+    padding-left: 0px;
+}
+.dropdown-menu:hover + .dropdown{
+  display: flex;
+}
+.dropdown:hover {
+    display: flex;
+}
+.dropdown-text:hover {
+    background-color: #d4d1d1;
+    color: #00b39b ;
+}
+.dropdown li {
+    padding: 5px ;
+}
+.logo {   
+ display: block;
+ margin-right: auto;
+ margin-left: auto;
+}
+.intro h1 {
+    color: #00b39b;
+    text-align: center;
+}
+.intro-p {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 300px 50px 300px;
+
+}
+.intro-par {
+    padding: 25px;
+    font-size: 20px;
+    color: #747474;
+ }
+ .cards {
+    display: flex;
+    justify-content: space-around;
+    height: 350px;
+    width: 67%;
+    margin: 70px 250px 20px 250px;
+ }
+ .patients {
+    background-color: #00b39b;
+    border-radius: 11px;
+    padding: 3%;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24%; 
+ }
+
+ .cards h1{
+    color: white;
+ }
+.cards p {
+    color: white;
+}
+.select select {
+    background-color: transparent;
+    border: 0;
+    text-decoration: underline;
+    color: white;
+    font-size: 17px;
+    padding: 3%;
+    cursor: pointer;
+}
+.select select option {
+    color: black;
+}
