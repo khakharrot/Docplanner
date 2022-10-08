@@ -1,3 +1,6 @@
+body{
+    margin-top: 0px;
+}
 .main-pic {
  width: 250px;
  height: 100px;
@@ -7,7 +10,13 @@ display: flex;
 justify-content:space-around;
 align-items: center;
 width: 100vw;
+position: fixed;
+background-color: white;
 }
+.intro {
+    padding-top: 100px;
+}
+
 .navbar-ul{
     display: flex; 
 justify-content:space-around;
@@ -19,12 +28,14 @@ li {
 a {
     text-decoration: none ;
     color: grey ;
+    fill: #747474;
 }
 .green {
     color: #00b39b;
 }
 a:hover {
     color: #00b39b ;
+    fill: #00b39b;
 }
 .dropdown {
     box-shadow: 0 5px 10px 0 #d3cfc9;
@@ -118,4 +129,21 @@ a:hover {
 }
 .select select option {
     color: black;
+}
+.partners{
+    display: inline-flex;
+    flex-direction: row;
+    padding: 20px 300px 20px 300px;
+}
+.slogan h1{
+    color: #00b39b;
+    font-family: Arial, Helvetica, sans-serif;}
+
+.partners-logo {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 0px 50px 20px 50px;
+    justify-content: space-between;
 }
