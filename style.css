@@ -137,7 +137,9 @@ a:hover {
 }
 .slogan h1{
     color: #00b39b;
-    font-family: Arial, Helvetica, sans-serif;}
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
 
 .partners-logo {
     align-items: center;
@@ -147,3 +149,63 @@ a:hover {
     padding: 0px 50px 20px 50px;
     justify-content: space-between;
 }
+.slogan svg{
+    width: 150px;
+}
+.stats {
+    display: flex;
+    padding: 20px 350px 20px 350px;
+    background-color: #e5faf8;
+}
+h2 {
+    color: #00b39b;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    color: #747474;
+}
+.intro {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.numbers {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.countries {
+    background-color: white;
+    text-align: center;
+    block-size: inherit;
+    width: 200px;
+    height: 220px;
+padding: 15px;
+margin: 15px;
+}
+.appointments {
+    background-color: white;
+    text-align: center;
+    block-size: inherit;
+    width: 200px;
+    height: 220px;
+    padding: 15px;
+    margin: 15px;}
+.websites {
+    background-color: white;
+    text-align: center;
+    block-size: inherit;
+    width: 200px;
+    height: 220px;
+    padding: 15px;
+    margin: 15px;}
+.trust {
+    background-color: white;
+    text-align: center;
+    block-size: inherit;
+    width: 200px;
+    height: 220px;
+    padding: 15px;
+    margin: 15px;}
