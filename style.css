@@ -44,6 +44,7 @@ a:hover {
     flex-direction:column;
     padding: 25px;
     padding-left: 0px;
+    background-color: white;
 }
 .dropdown-menu:hover + .dropdown{
   display: flex;
